@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormTest>
+    <formInfo>
+    </formInfo>
+    <formList>
+        <formControl>
+            <formControlType>1</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮-->
+            <formControlId>1</formControlId>
+            <formControlKey>name</formControlKey>
+            <formControlName>姓名</formControlName><!-- control-->
+            <formControlInfo>小明</formControlInfo>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>2</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮-->
+            <formControlId>2</formControlId>
+            <formControlName>性别</formControlName>
+            <formControlKey>sex</formControlKey>
+            <formControlInfo>男</formControlInfo><!-- 默认男 -->
+            <formControlData>
+                <formControlCate>
+                    <formControlCateName>男</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>女</formControlCateName>
+                </formControlCate>
+            </formControlData>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>3</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮-->
+            <formControlId>3</formControlId>
+            <formControlName>家庭住址</formControlName>
+            <formControlKey>address</formControlKey>
+            <formControlInfo></formControlInfo>
+            <formControlData>
+                <formControlCate>
+                    <formControlCateName>山东省莱芜市</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>山东省济南市</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>山东省青岛市</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>山东省烟台市</formControlCateName>
+                </formControlCate>
+            </formControlData>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>4</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮-->
+            <formControlId>4</formControlId>
+            <formControlKey>favourite</formControlKey>
+            <formControlName>输入你的爱好,小伙子</formControlName>
+            <formControlInfo>icon_nav_workbench</formControlInfo>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>5</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮-->
+            <formControlId>5</formControlId>
+            <formControlName>注册</formControlName>
+            <formControlInfo></formControlInfo>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+    </formList>
+</FormTest>

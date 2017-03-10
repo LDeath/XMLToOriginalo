@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormTest>
+    <formInfo>
+    </formInfo>
+    <formList>
+        <formControl>
+            <formControlType>3</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮 6.时间选择框 7.输入文本label 9.嵌套html 10.描述label -->
+            <formControlId>2</formControlId>
+            <formControlName>防疫季节</formControlName>
+            <formControlKey>fangyijijie</formControlKey>
+            <formControlInfo></formControlInfo>
+            <formControlData>
+                <formControlCate>
+                    <formControlCateName>2017春季</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>2017秋季</formControlCateName>
+                </formControlCate>
+            </formControlData>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>9</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮 6.时间选择框 7.输入文本label 9.嵌套html 10.描述label -->
+            <formControlId>100</formControlId>
+            <formControlName>嵌套表单</formControlName>
+            <formControlKey>qiantaobiaodan</formControlKey>
+            <formControlInfo></formControlInfo>
+            <formControlForm>
+                <formControl>
+                    <formControlType>1</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮-->
+                    <formControlId>33</formControlId>
+                    <formControlKey>qiantaobiaodanzhanshi</formControlKey>
+                    <formControlName>基本嵌套</formControlName><!-- control-->
+                    <formControlInfo></formControlInfo>
+                    <formControlSubmitUrl></formControlSubmitUrl>
+                </formControl>
+                <formControl>
+                    <formControlType>3</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮-->
+                    <formControlId>3</formControlId>
+                    <formControlName>乡镇|街道</formControlName>
+                    <formControlKey>xiangzhenjiedao</formControlKey>
+                    <formControlInfo></formControlInfo>
+                    <formControlData>
+                        <formControlCate>
+                            <formControlCateName>山东省莱芜市</formControlCateName>
+                        </formControlCate>
+                        <formControlCate>
+                            <formControlCateName>山东省济南市</formControlCateName>
+                        </formControlCate>
+                        <formControlCate>
+                            <formControlCateName>山东省青岛市</formControlCateName>
+                        </formControlCate>
+                        <formControlCate>
+                            <formControlCateName>山东省烟台市</formControlCateName>
+                        </formControlCate>
+                    </formControlData>
+                    <formControlSubmitUrl></formControlSubmitUrl>
+                </formControl>
+            </formControlForm>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+    </formList>
+    <formList>
+        <formControl>
+            <formControlType>10</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮-->
+            <formControlId>21</formControlId>
+            <formControlKey></formControlKey>
+            <formControlName>基本信息</formControlName><!-- control-->
+            <formControlInfo></formControlInfo>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>3</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮-->
+            <formControlId>3</formControlId>
+            <formControlName>乡镇|街道</formControlName>
+            <formControlKey>xiangzhenjiedao</formControlKey>
+            <formControlInfo></formControlInfo>
+            <formControlData>
+                <formControlCate>
+                    <formControlCateName>山东省莱芜市</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>山东省济南市</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>山东省青岛市</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>山东省烟台市</formControlCateName>
+                </formControlCate>
+            </formControlData>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>3</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮-->
+            <formControlId>4</formControlId>
+            <formControlName>村|社区</formControlName>
+            <formControlKey>cunshequ</formControlKey>
+            <formControlInfo></formControlInfo>
+            <formControlData>
+                <formControlCate>
+                    <formControlCateName>高新区</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>历下区</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>天桥区</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>朝阳区</formControlCateName>
+                </formControlCate>
+            </formControlData>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>3</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮 6.时间选择框 7.可输入label 9.嵌套html 10.描述栏-->
+            <formControlId>5</formControlId>
+            <formControlName>社|组</formControlName>
+            <formControlKey>shezu</formControlKey>
+            <formControlInfo></formControlInfo>
+            <formControlData>
+                <formControlCate>
+                    <formControlCateName>稽查组</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>行动组</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>倒霉组</formControlCateName>
+                </formControlCate>
+            </formControlData>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>7</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮-->
+            <formControlId>6</formControlId>
+            <formControlKey>fangyirenyuan</formControlKey>
+            <formControlName>防疫人员</formControlName><!-- control-->
+            <formControlInfo></formControlInfo>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>7</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮-->
+            <formControlId>7</formControlId>
+            <formControlKey>shequfuzeren</formControlKey>
+            <formControlName>社区负责人</formControlName><!-- control-->
+            <formControlInfo></formControlInfo>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>7</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮-->
+            <formControlId>8</formControlId>
+            <formControlKey>yezhuxingming</formControlKey>
+            <formControlName>业主姓名</formControlName><!-- control-->
+            <formControlInfo></formControlInfo>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>7</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮-->
+            <formControlId>9</formControlId>
+            <formControlKey>lianxidianhua</formControlKey>
+            <formControlName>联系电话</formControlName><!-- control-->
+            <formControlInfo></formControlInfo>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>6</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮-->
+            <formControlId>10</formControlId>
+            <formControlKey>mainyishijian</formControlKey>
+            <formControlName>免疫时间</formControlName><!-- control-->
+            <formControlInfo></formControlInfo>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>3</formControlType>
+            <formControlId>11</formControlId>
+            <formControlName>消毒情况</formControlName>
+            <formControlKey>xiaoduqingkuang</formControlKey>
+            <formControlInfo></formControlInfo>
+            <formControlData>
+                <formControlCate>
+                    <formControlCateName>已消毒</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>未消毒</formControlCateName>
+                </formControlCate>
+            </formControlData>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>5</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮-->
+            <formControlId>12</formControlId>
+            <formControlName>春秋防疫散户添加</formControlName>
+            <formControlInfo></formControlInfo>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+    </formList>
+    <formList>
+        <formControl>
+            <formControlType>10</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮-->
+            <formControlId>22</formControlId>
+            <formControlKey></formControlKey>
+            <formControlName>免疫信息</formControlName><!-- control-->
+            <formControlInfo></formControlInfo>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>3</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮 6.时间选择框-->
+            <formControlId>13</formControlId>
+            <formControlName>动物种类</formControlName>
+            <formControlKey>dongwuzhonglei</formControlKey>
+            <formControlInfo></formControlInfo>
+            <formControlData>
+                <formControlCate>
+                    <formControlCateName>鸡</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>鸭</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>鹅</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>牛</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>羊</formControlCateName>
+                </formControlCate>
+            </formControlData>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>1</formControlType>
+            <formControlId>14</formControlId>
+            <formControlKey>mianyibingzhong</formControlKey>
+            <formControlName>免疫病种</formControlName><!-- control-->
+            <formControlInfo>禽流感，新城疫，高致病性禽流感</formControlInfo>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>7</formControlType>
+            <formControlId>16</formControlId>
+            <formControlKey>cunlanshumu</formControlKey>
+            <formControlName>存栏数目</formControlName><!-- control-->
+            <formControlInfo></formControlInfo>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>7</formControlType>
+            <formControlId>17</formControlId>
+            <formControlKey>cunlanshumu</formControlKey>
+            <formControlName>应免数目</formControlName><!-- control-->
+            <formControlInfo></formControlInfo>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>7</formControlType>
+            <formControlId>18</formControlId>
+            <formControlKey>cunlanshumu</formControlKey>
+            <formControlName>免疫数目</formControlName><!-- control-->
+            <formControlInfo></formControlInfo>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>3</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮 6.时间选择框-->
+            <formControlId>19</formControlId>
+            <formControlName>未免原因</formControlName>
+            <formControlKey>weimianyuanyin</formControlKey>
+            <formControlInfo></formControlInfo>
+            <formControlData>
+                <formControlCate>
+                    <formControlCateName>畜禽未栓养</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>畜主不在</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>拒绝免疫</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>畜禽怀孕</formControlCateName>
+                </formControlCate>
+                <formControlCate>
+                    <formControlCateName>其它原因</formControlCateName>
+                </formControlCate>
+            </formControlData>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+        <formControl>
+            <formControlType>5</formControlType><!-- 1.Label 2.单选框 3.复选框 4.输入框 5.按钮-->
+            <formControlId>20</formControlId>
+            <formControlName>添加新免疫信息</formControlName>
+            <formControlInfo></formControlInfo>
+            <formControlSubmitUrl></formControlSubmitUrl>
+        </formControl>
+    </formList>
+</FormTest>
