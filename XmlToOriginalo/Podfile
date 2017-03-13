@@ -5,5 +5,7 @@ target "XmlToOriginalo" do
 pod  'XMLReader'
 pod  'FMDB'
 pod 'MJExtension', '~> 3.0.13'
+pod 'Masonry', '~> 1.0.2'
+pod 'IQKeyboardManager', '~> 3.3.7'
 
 end

@@ -20,6 +20,8 @@
 
 @property (nonatomic, copy) NSString *formControlCateName;
 
+@property (nonatomic, assign) BOOL isSelect;
+
 @end
 
 // 控件Model

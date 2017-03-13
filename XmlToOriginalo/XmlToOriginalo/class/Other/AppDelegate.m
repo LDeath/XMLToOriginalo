@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "FormVC.h"
+#import "IQKeyboardManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    [IQKeyboardManager sharedManager].enable = YES;
+    [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = YES;
+//    self.window = [[UIWindow alloc] initWithFrame:]
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[FormVC alloc] init]];
+    
     return YES;
 }
 

@@ -2,19 +2,25 @@ PODS:
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
+  - IQKeyboardManager (3.3.7)
+  - Masonry (1.0.2)
   - MJExtension (3.0.13)
   - XMLReader (0.0.2)
 
 DEPENDENCIES:
   - FMDB
+  - IQKeyboardManager (~> 3.3.7)
+  - Masonry (~> 1.0.2)
   - MJExtension (~> 3.0.13)
   - XMLReader
 
 SPEC CHECKSUMS:
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   XMLReader: c7e54b707c368e2fa545d8313276b4de13a36ff5
 
-PODFILE CHECKSUM: 01a34d1addb4cd4b45adae2fd381358851250cbf
+PODFILE CHECKSUM: 41b942b599d2125fe43361bb078fc042fa3424be
 
 COCOAPODS: 1.1.1

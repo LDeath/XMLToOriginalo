@@ -64,7 +64,7 @@ static XMLEngine *engine;
     } else if ([formList isKindOfClass:[NSDictionary class]]) { // formList是字典时/formList是单一表单时
         NSMutableDictionary *formListDic = formList;
         NSArray *dataArr = [FormControlModel mj_objectArrayWithKeyValuesArray:formListDic[@"formControl"]];
-        self.dataArr = [NSMutableArray arrayWithArray:dataArr];
+        [self.dataArr addObject:dataArr];
     }
 }
 
